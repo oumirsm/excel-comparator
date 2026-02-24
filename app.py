@@ -6,7 +6,7 @@ import tempfile
 
 st.set_page_config(page_title="Comparateur Excel", layout="wide")
 
-st.title("🔎 Comparateur de fichiers Excel - Contrôle Interne")
+st.title("🔎 Comparateur de fichiers Excel - ITRA")
 
 st.write("Uploader deux fichiers Excel à comparer.")
 

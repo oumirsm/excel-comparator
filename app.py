@@ -61,7 +61,7 @@ if file1 and file2:
                     col_name = df1.columns[col]
                     diff_by_column[col_name] = diff_by_column.get(col_name, 0) + 1
 
-                    df_result.iat[row, col] = f"FILE1 : {val1} / FILE2 : {val2}"
+                    df_result.iat[row, col] = f" RESULT : FILE1 : {val1} / FILE2 : {val2}"
 
         # ===============================
         # 📊 Résumé

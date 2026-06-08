@@ -43,7 +43,7 @@ if file1 and file2:
         # 🔎 Comparaison
         # ===============================
 
-        df_result = df1.copy()
+        df_result = df1.copy().astype(object)
         differences_count = 0
         diff_by_column = {}
 
